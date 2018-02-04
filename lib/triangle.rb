@@ -13,8 +13,9 @@ class Triangle
       raise TriangleError
     elsif list.uniq.size == 1
       return :equilateral
-    elsif 
-      
+    elsif list.uniq.size == 2
+      return :isosceles
+    elsif
     end
   end
   
