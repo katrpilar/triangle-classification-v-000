@@ -9,7 +9,9 @@ class Triangle
   
   def kind
     list = [@one,@two,@three]
-    if list.any?{|side| side == 0}
+    if list.each{|i| != 
+      
+      || list.any?{|side| side == 0}
       raise TriangleError
     elsif list.uniq.size == 1
       return :equilateral
