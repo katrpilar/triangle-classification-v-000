@@ -9,7 +9,7 @@ class Triangle
   
   def kind
     list = [@one,@two,@three]
-    if list.each{|i| != 
+    if != 
       
       || list.any?{|side| side == 0}
       raise TriangleError
