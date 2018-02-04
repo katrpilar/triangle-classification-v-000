@@ -13,7 +13,7 @@ class Triangle
       raise TriangleError
     elsif list.uniq.size == 1
       return :equilateral
-    elsif
+    elsif 
       
     end
   end
