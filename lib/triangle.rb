@@ -11,7 +11,7 @@ class Triangle
     list = [@one,@two,@three]
     if list.any?{|side| side == 0}
       raise TriangleError
-    elsif 
+    elsif list.uniq{|side| 
       
     end
   end
