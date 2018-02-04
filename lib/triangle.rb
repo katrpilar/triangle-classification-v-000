@@ -1,3 +1,22 @@
 class Triangle
-  # write code here
+  attr_accessor :one, :two, :three
+  
+  def initialize(one,two,three)
+    @one = one
+    @two = two
+    @three = three
+  end
+  
+  def kind
+    list = [@one,@two,@three]
+    if list.any?{|side| side == 0}
+      raise TriangleError
+    elsif 
+      
+    end
+  end
+  
+end
+
+class TriangleError < StandardError
 end
