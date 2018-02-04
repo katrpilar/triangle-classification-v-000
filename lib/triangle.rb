@@ -15,7 +15,8 @@ class Triangle
       return :equilateral
     elsif list.uniq.size == 2
       return :isosceles
-    elsif
+    else
+      return :scalene
     end
   end
   
